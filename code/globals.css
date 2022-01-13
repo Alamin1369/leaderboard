@@ -12,6 +12,23 @@ a,ul,li{
     list-style: none;
     text-decoration: none;
 }
+.active{
+    position: relative;
+    transition: 0.5s;
+}
+.active::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 20%;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    transition: 0.5s;
+}
+.active:hover:after{
+    width: 100%;
+}
 nav{
     background-color: #562EFF;
     display: flex;

@@ -1,9 +1,21 @@
 @import url('./globals.css');
+@import url('./responsive.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*==========================\*
     Classes Styles starts
 \*==========================*/
-
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img{
+    width: 51px;
+    margin-right: 4px;
+}
+.logo > p{
+    font-size: 50px;
+}
 .top__players{
     width: 100%;
 }
