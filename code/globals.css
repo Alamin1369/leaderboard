@@ -1,0 +1,60 @@
+/*====================\*
+    global styles
+\*====================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+a,ul,li{
+    color: currentColor;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: #562EFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 94px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    margin-right: 36px;
+}
+.wrapper{
+    background-color: #f3f1ff;
+    padding-bottom: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 870px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px 0 0;
+    border-radius: 5px;
+}
+.text__color{
+    color: #562EFF;
+    cursor: pointer;
+    font-weight: 500;
+}
+.pink__col{
+    color: #FF4A60;
+}
+hr{
+    margin: 30px 0;
+}
+/*==========================\*
+    global styles ends
+\*==========================*/
